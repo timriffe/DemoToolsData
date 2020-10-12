@@ -1,0 +1,15 @@
+Package: DemoToolsData
+Title: Important demographic data too big to fit in other methods packages
+Version: 0.0.0.9000
+Authors@R: 
+   c(
+     person(given = "José H", family = "Monteiro da Silva", role = c("aut", "cre"), email = "zecosta.monteiro@gmail.com", comment = c(ORCID = "0000-0001-9674-3041")),
+     person("Tim", "Riffe", role = c("ctb"), comment = c(ORCID = "0000-0002-2673-4622")),
+     person("Jorge", "Cimentada", role = "ctb", comment = c(ORCID = "0000-0001-5594-1156"))
+   )
+Description: Most demography methods packages (for example DemoTools, fertestr) require using different demographic data sources in their estimations or their examples. This package hosts most of the data needed in these packages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
