@@ -5,7 +5,12 @@
 \alias{std.zaba}
 \title{Zaba standard table for Gompertz model fertility estimation}
 \format{
-
+\preformatted{A data frame with 4 columns:
+age (numeric)
+Yx_std (numeric)
+Fx (numeric)
+Px_x5 (numeric)
+}
 }
 \source{
 Moultrie TA, RE Dorrington, AG Hill, K Hill, IM Timæus and B Zaba (eds). 2013.
