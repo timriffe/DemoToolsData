@@ -183,3 +183,17 @@
 #' @format
 #' A list with 3 elements representing coefficients for both sexes (total), males (male) and females (female)
 "hmd_lqcoeffs"
+
+
+#' Estimated total birth counts and sex ratios at birth by year and location. These estimates were derived by smoothing the 5-year output of WPP2019. This dataset is temporary, for convenience in `DemoTools::basepop()` and will be deprecated when better estimates become available.
+#' 
+#' @format 
+#' A `data.frame` with 7 columns and 16756 rows
+#' * `LocID` character. UN location codes numeric, but stored as character.
+#' * `ISO3` character. 3-letter location codes.
+#' * `ISO2` character. 2-letter location codes.
+#' * `LocName` character. Spelled-out location name.
+#' * `Year` double.
+#' * `TBirths` double. Total births in year, estimated by a smooth interpolation of WPP2019 output.
+#' * `SRB` double. Sex ratio at birth in year, estimated by a smooth interpolation of WPP2019 output.
+"WPP2019_births"
