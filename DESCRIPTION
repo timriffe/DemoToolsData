@@ -1,6 +1,6 @@
 Package: DemoToolsData
 Title: Important demographic data too big to fit in other methods packages
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
    c(
      person(given = "José H", family = "Monteiro da Silva", role = c("aut", "cre"), email = "zecosta.monteiro@gmail.com", comment = c(ORCID = "0000-0001-9674-3041")),
@@ -11,6 +11,7 @@ Description: Most demography methods packages (for example DemoTools, fertestr) 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 

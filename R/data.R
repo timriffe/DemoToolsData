@@ -243,3 +243,12 @@
 #' * `ISO2` character. 2-letter location codes.
 #' * `LocName` character. Spelled-out location name.
 "WPP_codes"
+
+#' Estimated total birth counts and sex ratios at birth by year and location. These estimates are a preliminary auxiliary output of WPP2021. This dataset is temporary, for convenience in `DemoTools::basepop()` and will be deprecated when better estimates become available.
+#' 
+#' @format 
+#' A `data.frame` with 7 columns and 16756 rows
+#' * `LocID` character. UN location codes numeric, but stored as character.
+#' * `Year` integer
+#' * `SRB` double. Sex ratio at birth in year, estimated by a smooth interpolation of WPP2019 output.
+"WPP2021_SRB"
