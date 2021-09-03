@@ -156,28 +156,6 @@
 #'   https://www.un.org/en/development/desa/population/publications/mortality/model-life-tables.asp
 "modelLTx1"
 
-#' 2019 World Population Prospects
-#'
-#' Single-age WPP 2019 country population estimates for 1950-2100
-#'
-#' @format
-#'     A data frame with 10 columns:
-#'     LocID (location ID)
-#'     Location (Location name)
-#'     Time (year of estimates)
-#'     MidPeriod (mid period of estimates)
-#'     AgeGrp (age group)
-#'     AgeGrpStart (starting age of age group)
-#'     AgeGrpSpan (age group span - 1 year)
-#'     PopMale (male population counts)
-#'     PopFemale (female population counts)
-#'     PopTotal (both sexes population counts)
-#' @source
-#'   Worl Population Prospects - United Nations 2019
-#'   https://population.un.org/wpp/Download/Standard/CSV/
-"popWpp2019x1"
-
-
 #' Log-Quadratic Model coefficients for Human Mortality Database
 #'
 #' @format
@@ -188,11 +166,8 @@
 #' Estimated total birth counts and sex ratios at birth by year and location. These estimates were derived by smoothing the 5-year output of WPP2019. This dataset is temporary, for convenience in `DemoTools::basepop()` and will be deprecated when better estimates become available.
 #' 
 #' @format 
-#' A `data.frame` with 7 columns and 16756 rows
+#' A `data.frame` with 7 columns and 16969 rows
 #' * `LocID` character. UN location codes numeric, but stored as character.
-#' * `ISO3` character. 3-letter location codes.
-#' * `ISO2` character. 2-letter location codes.
-#' * `LocName` character. Spelled-out location name.
 #' * `Year` double.
 #' * `TBirths` double. Total births in year, estimated by a smooth interpolation of WPP2019 output.
 #' * `SRB` double. Sex ratio at birth in year, estimated by a smooth interpolation of WPP2019 output.
@@ -224,7 +199,7 @@
 #' Selected lifetable output of WPP2019, including all populations. This dataset is temporary, for convenience in `DemoTools` and `fertestr` and it may be deprecated when better estimates become available. This data may need to be interpolated to. Total population by age can be calculated as the sum of male and female populations.
 #' 
 #' @format 
-#' A `data.frame` with 7 columns and 232650 rows
+#' A `data.frame` with 7 columns and 235610 rows
 #' * `LocID` character. UN location codes numeric, but stored as character.
 #' * `Year` integer.
 #' * `Sex` character. `"b"`, `"f"`, or `"m"`
@@ -234,10 +209,10 @@
 #' * `lx` double. radix 100000 survivorship.
 "WPP2019_lt" 
 
-#' A convenience lookup table for location codes. Some WPP data objects (`WPP2019_lt`, `WPP2019_pop`, `WPP2019_asfr`) only have the UN `LocID` code. The object may help with more flexible queries.
+#' A convenience look-up table for location codes. Some WPP data objects (`WPP2019_lt`, `WPP2019_pop`, `WPP2019_asfr`) only have the UN `LocID` code. The object may help with more flexible queries.
 #' 
 #' @format 
-#' A `data.frame` with 4 columns and 235 rows
+#' A `data.frame` with 4 columns and 238 rows
 #' * `LocID` character. UN location codes numeric, but stored as character.
 #' * `ISO3` character. 3-letter location codes.
 #' * `ISO2` character. 2-letter location codes.

@@ -3,9 +3,9 @@
 \docType{data}
 \name{WPP_codes}
 \alias{WPP_codes}
-\title{A convenience lookup table for location codes. Some WPP data objects (\code{WPP2019_lt}, \code{WPP2019_pop}, \code{WPP2019_asfr}) only have the UN \code{LocID} code. The object may help with more flexible queries.}
+\title{A convenience look-up table for location codes. Some WPP data objects (\code{WPP2019_lt}, \code{WPP2019_pop}, \code{WPP2019_asfr}) only have the UN \code{LocID} code. The object may help with more flexible queries.}
 \format{
-A \code{data.frame} with 4 columns and 235 rows
+A \code{data.frame} with 4 columns and 238 rows
 \itemize{
 \item \code{LocID} character. UN location codes numeric, but stored as character.
 \item \code{ISO3} character. 3-letter location codes.
@@ -17,6 +17,6 @@ A \code{data.frame} with 4 columns and 235 rows
 WPP_codes
 }
 \description{
-A convenience lookup table for location codes. Some WPP data objects (\code{WPP2019_lt}, \code{WPP2019_pop}, \code{WPP2019_asfr}) only have the UN \code{LocID} code. The object may help with more flexible queries.
+A convenience look-up table for location codes. Some WPP data objects (\code{WPP2019_lt}, \code{WPP2019_pop}, \code{WPP2019_asfr}) only have the UN \code{LocID} code. The object may help with more flexible queries.
 }
 \keyword{datasets}

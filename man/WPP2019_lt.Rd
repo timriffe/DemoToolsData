@@ -5,7 +5,7 @@
 \alias{WPP2019_lt}
 \title{Selected lifetable output of WPP2019, including all populations. This dataset is temporary, for convenience in \code{DemoTools} and \code{fertestr} and it may be deprecated when better estimates become available. This data may need to be interpolated to. Total population by age can be calculated as the sum of male and female populations.}
 \format{
-A \code{data.frame} with 7 columns and 232650 rows
+A \code{data.frame} with 7 columns and 235610 rows
 \itemize{
 \item \code{LocID} character. UN location codes numeric, but stored as character.
 \item \code{Year} integer.

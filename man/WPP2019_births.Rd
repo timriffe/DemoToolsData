@@ -5,12 +5,9 @@
 \alias{WPP2019_births}
 \title{Estimated total birth counts and sex ratios at birth by year and location. These estimates were derived by smoothing the 5-year output of WPP2019. This dataset is temporary, for convenience in \code{DemoTools::basepop()} and will be deprecated when better estimates become available.}
 \format{
-A \code{data.frame} with 7 columns and 16756 rows
+A \code{data.frame} with 7 columns and 16969 rows
 \itemize{
 \item \code{LocID} character. UN location codes numeric, but stored as character.
-\item \code{ISO3} character. 3-letter location codes.
-\item \code{ISO2} character. 2-letter location codes.
-\item \code{LocName} character. Spelled-out location name.
 \item \code{Year} double.
 \item \code{TBirths} double. Total births in year, estimated by a smooth interpolation of WPP2019 output.
 \item \code{SRB} double. Sex ratio at birth in year, estimated by a smooth interpolation of WPP2019 output.
