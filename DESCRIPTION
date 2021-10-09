@@ -1,6 +1,6 @@
 Package: DemoToolsData
 Title: Important demographic data too big to fit in other methods packages
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: 
    c(
      person(given = "José H", family = "Monteiro da Silva", role = c("aut"), email = "zecosta.monteiro@gmail.com", comment = c(ORCID = "0000-0001-9674-3041")),
