@@ -5,7 +5,7 @@
 \alias{WPP2019_asfr}
 \title{ASFR output of WPP2019, including all populations. This dataset is temporary, for convenience in \code{DemoTools} and \code{fertestr} and it may be deprecated when better estimates become available.}
 \format{
-A \code{data.frame} with 5 columns and 24675 rows
+A \code{data.frame} with 5 columns and 24990 rows
 \itemize{
 \item \code{LocID} character. UN location codes numeric, but stored as character.
 \item \code{Year} integer

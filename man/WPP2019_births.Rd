@@ -8,7 +8,7 @@
 A \code{data.frame} with 7 columns and 16969 rows
 \itemize{
 \item \code{LocID} character. UN location codes numeric, but stored as character.
-\item \code{Year} double.
+\item \code{Year} integer
 \item \code{TBirths} double. Total births in year, estimated by a smooth interpolation of WPP2019 output.
 \item \code{SRB} double. Sex ratio at birth in year, estimated by a smooth interpolation of WPP2019 output.
 }

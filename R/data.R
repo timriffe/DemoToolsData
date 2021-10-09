@@ -168,7 +168,7 @@
 #' @format 
 #' A `data.frame` with 7 columns and 16969 rows
 #' * `LocID` character. UN location codes numeric, but stored as character.
-#' * `Year` double.
+#' * `Year` integer
 #' * `TBirths` double. Total births in year, estimated by a smooth interpolation of WPP2019 output.
 #' * `SRB` double. Sex ratio at birth in year, estimated by a smooth interpolation of WPP2019 output.
 "WPP2019_births"
@@ -176,7 +176,7 @@
 #' ASFR output of WPP2019, including all populations. This dataset is temporary, for convenience in `DemoTools` and `fertestr` and it may be deprecated when better estimates become available.
 #' 
 #' @format 
-#' A `data.frame` with 5 columns and 24675 rows
+#' A `data.frame` with 5 columns and 24990 rows
 #' * `LocID` character. UN location codes numeric, but stored as character.
 #' * `Year` integer
 #' * `AgeStart` integer lower bound of the age interval.
@@ -187,9 +187,9 @@
 #' Population output of WPP2019, including all populations. This dataset is temporary, for convenience in `DemoTools` and `fertestr` and it may be deprecated when better estimates become available. This data has been interpolated to a 1x1 Lexis grid. Years have July 1 reference dates. Total population by age can be calculated as the sum of male and female populations.
 #' 
 #' @format 
-#' A `data.frame` with 7 columns and 1685185 rows
+#' A `data.frame` with 7 columns and 1706698 rows
 #' * `LocID` character. UN location codes numeric, but stored as character.
-#' * `Year` double. Mid year.
+#' * `Year` integer Mid year.
 #' * `AgeStart` integer lower bound of the single age interval.
 #' * `AgeSpan` integer age interval width.
 #' * `PopMale` double. Male poplation.
@@ -199,7 +199,7 @@
 #' Selected lifetable output of WPP2019, including all populations. This dataset is temporary, for convenience in `DemoTools` and `fertestr` and it may be deprecated when better estimates become available. This data may need to be interpolated to. Total population by age can be calculated as the sum of male and female populations.
 #' 
 #' @format 
-#' A `data.frame` with 7 columns and 235610 rows
+#' A `data.frame` with 7 columns and 235620 rows
 #' * `LocID` character. UN location codes numeric, but stored as character.
 #' * `Year` integer.
 #' * `Sex` character. `"b"`, `"f"`, or `"m"`

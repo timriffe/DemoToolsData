@@ -5,10 +5,10 @@
 \alias{WPP2019_pop}
 \title{Population output of WPP2019, including all populations. This dataset is temporary, for convenience in \code{DemoTools} and \code{fertestr} and it may be deprecated when better estimates become available. This data has been interpolated to a 1x1 Lexis grid. Years have July 1 reference dates. Total population by age can be calculated as the sum of male and female populations.}
 \format{
-A \code{data.frame} with 7 columns and 1685185 rows
+A \code{data.frame} with 7 columns and 1706698 rows
 \itemize{
 \item \code{LocID} character. UN location codes numeric, but stored as character.
-\item \code{Year} double. Mid year.
+\item \code{Year} integer Mid year.
 \item \code{AgeStart} integer lower bound of the single age interval.
 \item \code{AgeSpan} integer age interval width.
 \item \code{PopMale} double. Male poplation.
